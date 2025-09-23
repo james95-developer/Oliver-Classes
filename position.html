@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border:3px solid blue;
+            right:30px;
+        }
+        .sticky{
+            position:sticky;
+            width:100px;
+        }
+        .fixed{
+            position:fixed;
+            width:300px;
+        }
+        .relative{
+            position: relative;
+            left:100px;
+        }
+        .absolute{
+            position: absolute;
+            left:50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Position Property</h2>
+
+    <div>
+        Div with no position(static position)
+    </div>
+
+    <div class="sticky">
+        Div with sticky position
+    </div>
+
+    <div class="fixed">
+        Div with fixed position
+    </div>
+
+    <div class="relative">
+        Div with Relative position
+        <div class="absolute">
+            Div with Absolute position
+        </div>
+    </div>
+</body>
+</html>
